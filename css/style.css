@@ -1,1 +1,38 @@
 /* ini css */
+
+.title {
+    text-align: center;
+}
+
+main{
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right{
+    text-align: center;
+    padding: 12px;
+    flex: 1;
+    border: 2px solid;
+}
+
+
+form{
+text-align: left;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=number]:focus {
+    border: 3px solid #555;
+  }
